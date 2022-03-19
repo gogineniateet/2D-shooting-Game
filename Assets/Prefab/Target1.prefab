@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 12761997473627425}
   - component: {fileID: 3571491395610752163}
   - component: {fileID: 6413026040276329703}
+  - component: {fileID: 8648826344856230891}
   m_Layer: 0
   m_Name: Target1
   m_TagString: Untagged
@@ -112,3 +113,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3b44e0ba54639441b36039fde418ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  time: 0
+--- !u!50 &8648826344856230891
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2521656021737372182}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
